@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+#profile{
+  width: 80%;
+  animation-name:pfp ;
+  animation-duration: 2s; ;
+  animation-iteration-count:1 ;
+}
+@keyframes pfp{
+0%{width: 0%;}
+100%{width: 80%;}
+
+}
