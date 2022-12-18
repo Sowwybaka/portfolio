@@ -5,7 +5,7 @@ function Navbar() {
 <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
-      Navbar
+      Sowmith
     </a>
     <button
       className="navbar-toggler"
@@ -27,7 +27,7 @@ function Navbar() {
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            Link
+            About me
           </a>
         </li>
         <li className="nav-item dropdown">
@@ -38,17 +38,17 @@ function Navbar() {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Dropdown
+            Projects
           </a>
           <ul className="dropdown-menu">
             <li>
               <a className="dropdown-item" href="#">
-                Action
+                Project 1
               </a>
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                Another action
+                Project 2
               </a>
             </li>
             <li>
@@ -56,26 +56,15 @@ function Navbar() {
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                Something else here
+                Project 3
               </a>
             </li>
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
+          <a className="nav-link ">Contact me</a>
         </li>
       </ul>
-      <form className="d-flex" role="search">
-        <input
-          className="form-control me-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button className="btn btn-outline-success" type="submit">
-          Search
-        </button>
-      </form>
     </div>
   </div>
 </nav>
