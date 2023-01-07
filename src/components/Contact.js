@@ -3,8 +3,8 @@ import React from 'react'
 function Contact() {
     return (
         <>
-            <div className='container-fluid bg-success bg-opacity-50'>
-                <div className='container'>
+            <div className='container-fluid bg-opacity-50'>
+                <div className='container my-5 py-5'>
                     <div className="row g-3">
                         <div className="col-md-6">
                             <label htmlFor="inputEmail4" className="form-label">
@@ -43,10 +43,7 @@ function Contact() {
                             <label htmlFor="inputState" className="form-label">
                                 State
                             </label>
-                            <select id="inputState" className="form-select">
-                                <option selected="">Choose...</option>
-                                <option>...</option>
-                            </select>
+                            <input id="inputState" type="text" className="form-control"/>
                         </div>
                         <div className="col-md-2">
                             <label htmlFor="inputZip" className="form-label">
