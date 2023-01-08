@@ -30,38 +30,11 @@ function Navbar() {
           <Link className="nav-link" to="/Education">
             Education
           </Link>
-          
         </li>
-        <li className="nav-item dropdown ">
-          <a
-            className="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Projects
+        <li className="nav-item">
+          <a className="nav-link" href='https://github.com/Sowwybaka' target="_blank">
+            Github
           </a>
-          <ul className="dropdown-menu">
-            <li>
-              <a className="dropdown-item" href="#">
-                Project 1
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Project 2
-              </a>
-            </li>
-            <li>
-              <hr className="dropdown-divider" />
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Project 3
-              </a>
-            </li>
-          </ul>
         </li>
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/Contact">Contact me</Link>
