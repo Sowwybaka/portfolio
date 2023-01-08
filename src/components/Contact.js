@@ -43,7 +43,7 @@ function Contact() {
                             <label htmlFor="inputState" className="form-label">
                                 State
                             </label>
-                            <input id="inputState" type="text" className="form-control"/>
+                            <input id="inputState" type="text" className="form-control" />
                         </div>
                         <div className="col-md-2">
                             <label htmlFor="inputZip" className="form-label">

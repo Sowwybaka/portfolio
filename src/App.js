@@ -8,12 +8,12 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <>
-<Navbar />
-<Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/education" element={<Education />} />
-  <Route path="/contact" element={<Contact />} />
-</Routes>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/education" element={<Education />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
   );
 }
